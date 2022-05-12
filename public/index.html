@@ -35,7 +35,7 @@
         var data = { id_token };
         var url = window.location.hostname.includes("localhost")
           ? "http://localhost:8080/api/auth/google"
-          : "https://rest-server-basic-node-catriel.herokuapp.com/";
+          : "https://rest-server-basic-node-catriel.herokuapp.com";
 
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
